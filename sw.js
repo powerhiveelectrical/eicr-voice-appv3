@@ -1,4 +1,4 @@
-const CACHE_NAME = 'eicr-cache-v1';
+const CACHE_NAME = 'eicr-cache-v3';
 const urlsToCache = ['index.html', 'manifest.json', 'icon-192.png', 'icon-512.png'];
 
 
