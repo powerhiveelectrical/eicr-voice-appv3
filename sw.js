@@ -1,11 +1,6 @@
 const CACHE_NAME = 'eicr-cache-v1';
-const urlsToCache = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/icon-192.png',
-  '/icon-512.png'
-];
+const urlsToCache = ['index.html', 'manifest.json', 'icon-192.png', 'icon-512.png'];
+
 
 self.addEventListener('install', event => {
   event.waitUntil(
